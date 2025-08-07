@@ -19,7 +19,7 @@ HTML = '''
 <html>
 <head>
     <title>Translate Video to English</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for(filename='style.css') }}">
 </head>
 <body>
     <h2>Upload Video to Translate</h2>
